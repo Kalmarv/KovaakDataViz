@@ -23,6 +23,8 @@ Not yet optomized for general release so you'll have to setup a few things to us
 From Windows Subsystem for Linux:
 
 * Run python3 main.py
+ * This processes the Kovaaks's log files into nice pandas data frames
 * Run python3 plotlyviz.py
+ * This runs the server and creates the graphs
 
 This will start a local server at http://127.0.0.1:8050/ that will display the graphs.
