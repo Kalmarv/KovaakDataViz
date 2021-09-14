@@ -23,8 +23,14 @@ Not yet optomized for general release so you'll have to setup a few things to us
 From Windows Subsystem for Linux:
 
 * Run python3 main.py
- * This processes the Kovaaks's log files into nice pandas data frames
+  * This processes the Kovaaks's log files into nice pandas data frames
 * Run python3 plotlyviz.py
- * This runs the server and creates the graphs
+  * This creates the server running at http://127.0.0.1:8050/ and creates the graphs
 
-This will start a local server at http://127.0.0.1:8050/ that will display the graphs.
+## Other Notes
+
+* I'm pretty new to programming, and this is my first attempt at a real project, I'm sure there are a ton of issues with the code but I'm still learning
+* I don't have any of the old Kovaak's log files, so it won't work with those
+* It does not edit your files in the Kovaak's save folder, simply reads the data, and copies it to one master csv in the folder of the python scripts
+* I'm open to suggestions, but no guarantees
+* There is a chance it will not run for you as Kovaak's logs scenarios different for no discernible reason, and I have to deal with these as I find them. I will probably refactor the code to try and remedy this
